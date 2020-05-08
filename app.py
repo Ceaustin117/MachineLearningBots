@@ -1,12 +1,12 @@
 from Bots import flightPredictionBot
 from Utilities import FeaturesScaling
 
-stable_bot1 = flightPredictionBot.FlightPredictionBot("Flight Prediction Bot")
+flight_prediction_bot = flightPredictionBot.FlightPredictionBot("Flight Prediction Bot")
 
 
 def main():
     print("python main function")
-    stable_bot1.add_to_target_function_dictionary("LinearRegression")
+    flight_prediction_bot.add_to_target_function_dictionary("LinearRegression")
     #create the dataset
     dataset = []
 
@@ -20,9 +20,9 @@ def main():
     labels.append(338.0)        # price label of house#2
     labels.append(304.0)        # ...
 
-    stable_bot1.run_linear_regression(dataset,labels,[1.0, 1.0, 1.0],0.1)
-    stable_bot1.fun()
-    stable_bot1.print_linear_regression()
+    flight_prediction_bot.run_linear_regression(dataset,labels,[1.0, 1.0, 1.0],0.1)
+    flight_prediction_bot.fun()
+    flight_prediction_bot.print_linear_regression()
 
 
 if __name__ == '__main__':
