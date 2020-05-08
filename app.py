@@ -1,7 +1,7 @@
 from Bots import flightPredictionBot
 from Utilities import FeaturesScaling
 
-stable_bot1 = flightPredictionBot.FlightPredictionBot("Binance Bot")
+stable_bot1 = flightPredictionBot.FlightPredictionBot("Flight Prediction Bot")
 
 
 def main():

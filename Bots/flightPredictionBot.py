@@ -1,4 +1,4 @@
-from SupervisedLearningAlgorithms import LinearRegression
+from SupervisedLearning import LinearRegression
 from Utilities import FeaturesScaling, FileHandler
 import math
 # Driver code

@@ -1,0 +1,3 @@
+# this py file will be a class that is responsible for the Flight Data being imported to be processed
+
+class FlightData:
